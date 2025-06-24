@@ -4,7 +4,7 @@ int L3 = 10;
 
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(L3, OUTPUT);
   pinMode(L1, OUTPUT);
   pinMode(L2, OUTPUT);
 }
