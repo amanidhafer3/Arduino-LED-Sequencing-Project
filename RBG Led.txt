@@ -1,0 +1,31 @@
+int L1 = 7;
+int L2 = 4;
+int L3 = 10;
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(L1, OUTPUT);
+  pinMode(L2, OUTPUT);
+}
+
+void loop()
+{
+  // Step 1: Turn on built-in LED
+  digitalWrite(L3, HIGH);
+  delay(500);
+  digitalWrite(L3, LOW);
+  delay(500);
+
+  // Step 2: Turn on L1
+  digitalWrite(L1, HIGH);
+  delay(500);
+  digitalWrite(L1, LOW);
+  delay(500);
+
+  // Step 3: Turn on L2
+  digitalWrite(L2, HIGH);
+  delay(500);
+  digitalWrite(L2, LOW);
+  delay(500);
+}
